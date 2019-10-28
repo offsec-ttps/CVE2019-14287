@@ -15,7 +15,7 @@ bypass this security policy and take complete control over the system.
 ```
 An Apple Information Security Researcher by Joe Vennix
 ```
-## How to Identify this Attack.
+## How to Identify this Attack ?
 If you have Permission to see sudoers file then,
 ```
 if /etc/sudoers Conf file Says, 
@@ -33,7 +33,7 @@ User lucy may run the following commands on this host:
     (ALL, !root) /usr/bin/bash
 ```
 
-## How to Exploit this issue.
+## How to Exploit this issue ?
 ```
 The flaw can be exploited by an attacker to run commands as root by specifying the user ID "-1" or "4294967295."  
 ```
@@ -194,7 +194,7 @@ john@blak-off:/home/blak$
 ## It Happens the same with sudo 1.8.27 version. Bash didnt work but 'id','vi', etc work ..!!
 
 ```
-According to my test i'm able to execute all commands which is restricted to run as root accept bash.
+According to my test I'm able to execute all commands which is restricted to run as root accept bash.
 ```
 ```
 Sudo version 1.8.27
